@@ -1,13 +1,31 @@
 // Ex2.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
 //
 
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+int main() {
+	int note = 1;
+	int notesup10 = 0;
 
+
+	while (note <= 20 && note >= 0) {
+		printf("Saisir une note\n");
+		scanf("%d", &note);
+
+		if (note >= 10); {
+
+			notesup10++;
+
+		}
+		printf("note = %d\n", note);
+		printf("note > 10 = %d\n", notesup10);
+	
+
+	
+	}
+
+	}
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
 // Déboguer le programme : F5 ou menu Déboguer > Démarrer le débogage
 
